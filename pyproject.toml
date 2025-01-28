@@ -1,0 +1,22 @@
+[project]
+name = "mlsummary"
+version = "0.1.0"
+description = "This is package to provide some usefull tools for the model building step in a Machine Learning project."
+readme = "README.md"
+authors = [
+    { name = "Jorge Rivero Dones", email = "jrdminas@gmail.com" }
+]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.24.4",
+]
+
+[project.scripts]
+mlsummary = "mlsummary:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = ["polars", "scikit-learn"]
