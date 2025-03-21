@@ -19,4 +19,4 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.uv]
-dev-dependencies = ["polars", "scikit-learn"]
+dev-dependencies = ["pandas", "polars", "scikit-learn"]
