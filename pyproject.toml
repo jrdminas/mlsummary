@@ -10,6 +10,18 @@ requires-python = ">=3.8"
 dependencies = [
     "numpy>=1.24.4",
 ]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+classifiers = [
+    "Programming Language :: Python :: 3", 
+    "Operating System :: OS Independent",
+]
+
+keywords = ["vif"]
+
+[project.urls]
+Homepage = "https://github.com/jrdminas/mlsummary"
+Issues = "https://github.com/jrdminas/mlsummary"
 
 [project.scripts]
 mlsummary = "mlsummary:main"
